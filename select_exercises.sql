@@ -19,7 +19,7 @@ SELECT 'The genre for Nevermind' AS 'Number 3';
 SELECT genre
 FROM albums
 WHERE
-    artist = 'Nevermind';
+    name = 'Nevermind';
 
 SELECT 'Which albums were released in the 1990s' AS 'Number 4';
 
