@@ -46,3 +46,10 @@ SELECT *
 FROM employees
 WHERE last_name LIKE '%q%'
 AND last_name NOT LIKE '%qu%';
+
+SELECT COUNT(*)
+FROM employees
+WHERE birth_date LIKE '%-08-07'
+ORDER BY birth_date;
+
+
