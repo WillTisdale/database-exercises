@@ -23,3 +23,5 @@ WHERE
 
 SELECT *
 FROM albums;
+
+source albums_seeder.sql;

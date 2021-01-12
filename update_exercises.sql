@@ -2,7 +2,8 @@ USE codeup_test_db;
 
 SELECT '' AS 'All Albums';
 
-SELECT * FROM albums;
+SELECT *
+FROM albums;
 
 UPDATE albums
 SET sales = (sales * 10);
@@ -49,3 +50,5 @@ SELECT *
 FROM albums
 WHERE
     artist = 'Peter Jackson';
+
+source albums_seeder.sql;
